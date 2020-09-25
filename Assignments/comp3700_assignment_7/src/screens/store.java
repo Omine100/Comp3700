@@ -8,4 +8,5 @@ public class store {
     private JTextField purchaseQuantityTextField;
     private JTextField purchasePriceTextField;
     private JButton purchaseTotalButton;
+    private JLabel puchaseTotalLable;
 }
