@@ -1,4 +1,4 @@
-package net.sqlitetutorial;
+package connect.net.sqlitetutorial;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class Connect {
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:/Users/matthewbrowning/Documents/Programming/Github/Comp3700/Assignments/comp3700_assignment_9/dbstore.db";
+            String url = "jdbc:sqlite:C:/db/store.db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
             
