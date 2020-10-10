@@ -9,19 +9,19 @@ import java.sql.SQLException;
  * @author sqlitetutorial.net
  */
 public class Connect {
-     /**
+    /**
      * Connect to a sample database
      */
     public static void connect() {
         Connection conn = null;
         try {
             // db parameters
-            String url = "jdbc:sqlite:C:/db/store.db";
+            String url = "jdbc:sqlite:C:/sqlite/db/chinook.db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
-            
+
             System.out.println("Connection to SQLite has been established.");
-            
+
         } catch (SQLException e) {
             System.out.println(e.getMessage());
         } finally {
