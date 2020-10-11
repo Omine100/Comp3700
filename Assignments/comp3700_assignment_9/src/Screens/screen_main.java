@@ -15,6 +15,7 @@ public class screen_main extends JFrame{
     private JTextField tableTextField;
     private JButton displayButton;
     private JList contentList;
+    private DefaultListModel listModel = new DefaultListModel();
 
     public screen_main(String title) {
         super(title);
@@ -26,8 +27,10 @@ public class screen_main extends JFrame{
         displayButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String table = tableTextField.getText();
-                printRows(table, contentList);
+                listModel.clear();
+                printRows(tableTextField.getText(), listModel);
+                contentList.setModel(listModel);
+                contentList.repaint();
             }
         });
     }
@@ -51,40 +54,46 @@ public class screen_main extends JFrame{
         return connection;
     }
 
-    public JList printRows(String table, JList contentList) {
-        String CUSTOMERS = "SELECT CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERPHONE FROM CUSTOMERS";
-        String PRODUCTS = "SELECT PRODUCTID, PRODUCTNAMEANDDESCRIPTION, PRODUCTPRICE, PRODUCTAVAILABLEQUANTITY FROM PRODUCTS";
-        String PURCHASES = "SELECT CUSTOMERID, PRODUCTID, QUANTITY FROM PURCHASES";
+    public DefaultListModel printRows(String table, DefaultListModel listModel) {
+        String Customers = "SELECT CUSTOMERID, CUSTOMERNAME, CUSTOMERADDRESS, CUSTOMERPHONE FROM CUSTOMERS";
+        String Products = "SELECT PRODUCTID, PRODUCTNAMEANDDESCRIPTION, PRODUCTPRICE, PRODUCTAVAILABLEQUANTITY FROM PRODUCTS";
+        String Purchases = "SELECT CUSTOMERID, PRODUCTID, QUANTITY FROM PURCHASES";
 
         try (Connection connection = this.connect()) {
-            Statement Statement = connection.createStatement();
-            ResultSet Set = Statement.executeQuery(table);
+            Statement CustomersStatement = connection.createStatement();
+            ResultSet CustomersSet = CustomersStatement.executeQuery(Customers);
+            Statement ProductsStatements = connection.createStatement();
+            ResultSet ProductsSet = ProductsStatements.executeQuery(Products);
+            Statement PurchasesStatements = connection.createStatement();
+            ResultSet PurchasesSet = PurchasesStatements.executeQuery(Purchases);
 
             switch (table) {
-                case "CUSTOMERS":
-                    while (Set.next()) {
-                        contentList.add(new Label(Set.getString("CUSTOMERID") + ", " +
-                                Set.getString("CUSTOMERNAME") + ", " +
-                                Set.getString("CUSTOMERADDRESS") + ", " +
-                                Set.getString("CUSTOMERPHONE")));
+                case "Customers":
+                    while (CustomersSet.next()) {
+                        listModel.addElement(CustomersSet.getString("CUSTOMERID") + ", " +
+                                CustomersSet.getString("CUSTOMERNAME") + ", " +
+                                CustomersSet.getString("CUSTOMERADDRESS") + ", " +
+                                CustomersSet.getString("CUSTOMERPHONE"));
                     }
-                case "PRODUCTS":
-                    while (Set.next()) {
-                        contentList.add(new Label(Set.getString("PRODUCTID") + ", " +
-                                Set.getString("PRODUCTNAMEANDDESCRIPTION") + ", " +
-                                Set.getString("PRODUCTPRICE") + ", " +
-                                Set.getString("PRODUCTAVAILABLEQUANTITY")));
+                    break;
+                case "Products":
+                    while (ProductsSet.next()) {
+                        listModel.addElement(ProductsSet.getString("PRODUCTID") + ", " +
+                                ProductsSet.getString("PRODUCTNAMEANDDESCRIPTION") + ", " +
+                                ProductsSet.getString("PRODUCTPRICE") + ", " +
+                                ProductsSet.getString("PRODUCTAVAILABLEQUANTITY"));
                     }
-                case "PURCHASES":
-                    while (Set.next()) {
-                        contentList.add(new Label(Set.getString("CUSTOMERID") + ", " +
-                                Set.getString("PRODUCTID") + ", " +
-                                Set.getString("QUANTITY")));
+                    break;
+                case "Purchases":
+                    while (PurchasesSet.next()) {
+                        listModel.addElement(PurchasesSet.getString("CUSTOMERID") + ", " +
+                                PurchasesSet.getString("PRODUCTID") + ", " +
+                                PurchasesSet.getString("QUANTITY"));
                     }
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
-        return contentList;
+        return listModel;
     }
 }
