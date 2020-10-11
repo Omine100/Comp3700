@@ -25,7 +25,7 @@ public class Main {
         String ProductTable = "SELECT PRODUCTID, PRODUCTNAMEANDDESCRIPTION, PRODUCTPRICE, PRODUCTAVAILABLEQUANTITY FROM PRODUCTS";
         String PurchaseTable = "SELECT CUSTOMERID, PRODUCTID, QUANTITY FROM PURCHASES";
 
-        try (Connection connection = this.connect()){
+        try (Connection connection = this.connect()) {
             System.out.println("\t\tSTORE DATABASE\n\t\tPRINT ROWS\n");
 
             Statement customerStatement = connection.createStatement();
