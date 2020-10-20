@@ -1,0 +1,5 @@
+A. Does it have 3-tier architecture? If yes, what are components in each layer?
+	This does have 3-tier architecture. The highest layer is composed of the screens, which receive user input, send them to the controllers, which then send it to the data section. For instance, a user interacts with the screen, types in a product ID, a controller then sends the ID to the right data file to grab the item information.
+
+B. Does it have model-view-controller architecture? If yes, what are model, view, and controller components?
+	This does have model-view-controller architecture. The view components are those that classes that are followed by "Screen" or "View". The controller components are those followed by "Controller". And the model classes are those besides the ones mentioned above.
