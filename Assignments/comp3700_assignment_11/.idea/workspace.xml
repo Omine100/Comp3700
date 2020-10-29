@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a52374b5-5133-4d6e-a7c8-c329b6e77208" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreDemo/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreDemo/src/CustomerUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comp3700_assignment_11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_10/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_10/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_10/StoreDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_10/StoreDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/CheckoutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/CheckoutScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/CheckoutUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/DataAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/DataAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/LoginScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/LoginUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/MainScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/MainUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/src/ProductView.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/ProductUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/store.db" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/StoreDemo" />
+  </component>
+  <component name="ProjectId" id="1jR1LxIGbuIc0K5WpbXV9A7NC4M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/StoreDemo/sqlite-jdbc-3.16.1.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="comp3700_assignment_11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a52374b5-5133-4d6e-a7c8-c329b6e77208" name="Default Changelist" comment="" />
+      <created>1603752037719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603752037719</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603752071708">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752071708" />
+    <state x="2643" y="342" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603752270894">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2643" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752270894" />
+    <state x="2663" y="299" key="FileChooserDialogImpl" timestamp="1603752234565">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="299" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752234565" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1603762931273">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931273" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1603762931273">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931273" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1603762931273">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931273" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1603762931273">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603762931273" />
+    <state x="2437" y="132" key="SettingsEditor" timestamp="1603752237442">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2437" y="132" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752237442" />
+  </component>
+</project>

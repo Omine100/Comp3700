@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e87aa3-7c73-4219-90bb-5d073390536b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/StoreDemo/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreDemo/src/DataAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/src/DataAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreDemo/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/store.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoreDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/StoreDemo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1j7ROAlnYFszxgAhuZ3DXRRweaE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,8 +40,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/StoreDemo" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comp3700_assignment_11" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="comp3700_assignment_10" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,19 +78,41 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/StoreDemo" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603153147089">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2334" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603153147089" />
-    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1603153308693">
+    <state x="2660" y="295" key="FileChooserDialogImpl" timestamp="1603752036276">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603153308693" />
-    <state x="2381" y="185" key="SettingsEditor" timestamp="1603153194463">
+    <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752036276" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1603751944558">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2381" y="185" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603153194463" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1603751944558">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1603751944558">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1603751944558">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
+    <state x="2381" y="185" key="SettingsEditor" timestamp="1603751781959">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2381" y="185" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751781959" />
   </component>
 </project>
