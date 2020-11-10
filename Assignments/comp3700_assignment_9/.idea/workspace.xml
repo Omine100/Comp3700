@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d670e2-7824-410a-9724-9520d7279251" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/screen_main.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screens/screen_main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_12/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_12/client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_12/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_12/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1398" height="159" key="GridCell.Tab.0.bottom" timestamp="1602382340056">
