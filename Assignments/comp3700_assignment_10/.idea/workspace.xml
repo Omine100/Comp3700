@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f4e87aa3-7c73-4219-90bb-5d073390536b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreDemo/out/production/StoreDemo/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StoreDemo/out/production/StoreDemo/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comp3700_assignment_9/src/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../comp3700_assignment_9/src/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StoreDemo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StoreDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/Part2Screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/Part3Screenshot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/Part3Screenshot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/Part3Screenshot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/data/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_9/data/store.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/src/Screens/screen_main.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_9/src/Screens/screen_main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +51,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../comp3700_assignment_11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
@@ -94,25 +108,30 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2660" y="295" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603752036276" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1603751944558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1604977779870">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604977779870" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1603751944558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1604977779868">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604977779868" />
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1603751944558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1604977779868">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604977779868" />
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1603751944558">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1604977779869">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604977779869" />
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751944558" />
-    <state x="2381" y="185" key="SettingsEditor" timestamp="1603751781959">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="346" y="63" key="SettingsEditor" timestamp="1604977770522">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="346" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1604977770522" />
     <state x="2381" y="185" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1603751781959" />
   </component>
 </project>

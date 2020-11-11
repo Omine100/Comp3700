@@ -37,7 +37,7 @@ public class server {
 
     public static Connection connect() {
         //SQLite connection string
-        String url = "jdbc:sqlite:/Users/matthewbrowning/Documents/Programming/Github/Comp3700/Assignments/comp3700_assignment_12/store.db";
+        String url = "jdbc:sqlite:/Users/matthewbrowning/Documents/Programming/Github/Comp3700/Assignments/comp3700_assignment_10/StoreDemo/store.db";
         Connection connection = null;
 
         try {
@@ -52,7 +52,6 @@ public class server {
     public static String getProduct(String productID, Socket s) {
         String Products = "SELECT PRODUCTID, NAME, PRICE, QUANTITY FROM PRODUCTS";
         String name = "", price = "", quantity = "";
-        String result;
 
         try (Connection connection = connect()) {
             Statement ProductsStatements = connection.createStatement();
@@ -65,12 +64,7 @@ public class server {
             System.out.println(e.getMessage());
         }
 
-        if (name == "") {
-            result = "Product not found";
-            return result;
-        }
-
-        result = "Name: " + name + " Price: " + price + " Quantity: " + quantity;
+        String result = "Name: " + name + " Price: " + price + " Quantity: " + quantity;
         return result;
     }
 }

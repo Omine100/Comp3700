@@ -20,9 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d670e2-7824-410a-9724-9520d7279251" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_12/client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_12/client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comp3700_assignment_12/server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../comp3700_assignment_12/server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part2Screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3Screenshot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3Screenshot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part3Screenshot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/store.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/store.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/screen_main.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/screen_main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
